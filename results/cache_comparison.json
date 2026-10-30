@@ -1,0 +1,2549 @@
+{
+  "baseline": {
+    "scenario": "dynamic-before-breakpoint",
+    "assumptions": {
+      "jobs": 96,
+      "repositories": 16,
+      "interval_seconds": 45,
+      "ttl_seconds": 300,
+      "shared_prefix_tokens": 12000,
+      "dynamic_tokens": 2500,
+      "output_tokens": 450,
+      "rates_usd_per_million": {
+        "regular_input": 3.0,
+        "cache_write": 3.75,
+        "cache_read": 0.3,
+        "output": 15.0
+      },
+      "tokenizer": "synthetic token counts; no provider calls"
+    },
+    "cache_hits": 0,
+    "first_call_cache_hit_rate": 0.0,
+    "total_usd": 5.688,
+    "average_usd_per_first_call": 0.05925,
+    "events": [
+      {
+        "job_id": "job-000",
+        "repo": "repo-0",
+        "at_seconds": 0,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-001",
+        "repo": "repo-1",
+        "at_seconds": 45,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-002",
+        "repo": "repo-2",
+        "at_seconds": 90,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-003",
+        "repo": "repo-3",
+        "at_seconds": 135,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-004",
+        "repo": "repo-4",
+        "at_seconds": 180,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-005",
+        "repo": "repo-5",
+        "at_seconds": 225,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-006",
+        "repo": "repo-6",
+        "at_seconds": 270,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-007",
+        "repo": "repo-7",
+        "at_seconds": 315,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-008",
+        "repo": "repo-8",
+        "at_seconds": 360,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-009",
+        "repo": "repo-9",
+        "at_seconds": 405,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-010",
+        "repo": "repo-10",
+        "at_seconds": 450,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-011",
+        "repo": "repo-11",
+        "at_seconds": 495,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-012",
+        "repo": "repo-12",
+        "at_seconds": 540,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-013",
+        "repo": "repo-13",
+        "at_seconds": 585,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-014",
+        "repo": "repo-14",
+        "at_seconds": 630,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-015",
+        "repo": "repo-15",
+        "at_seconds": 675,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-016",
+        "repo": "repo-0",
+        "at_seconds": 720,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-017",
+        "repo": "repo-1",
+        "at_seconds": 765,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-018",
+        "repo": "repo-2",
+        "at_seconds": 810,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-019",
+        "repo": "repo-3",
+        "at_seconds": 855,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-020",
+        "repo": "repo-4",
+        "at_seconds": 900,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-021",
+        "repo": "repo-5",
+        "at_seconds": 945,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-022",
+        "repo": "repo-6",
+        "at_seconds": 990,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-023",
+        "repo": "repo-7",
+        "at_seconds": 1035,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-024",
+        "repo": "repo-8",
+        "at_seconds": 1080,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-025",
+        "repo": "repo-9",
+        "at_seconds": 1125,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-026",
+        "repo": "repo-10",
+        "at_seconds": 1170,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-027",
+        "repo": "repo-11",
+        "at_seconds": 1215,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-028",
+        "repo": "repo-12",
+        "at_seconds": 1260,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-029",
+        "repo": "repo-13",
+        "at_seconds": 1305,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-030",
+        "repo": "repo-14",
+        "at_seconds": 1350,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-031",
+        "repo": "repo-15",
+        "at_seconds": 1395,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-032",
+        "repo": "repo-0",
+        "at_seconds": 1440,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-033",
+        "repo": "repo-1",
+        "at_seconds": 1485,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-034",
+        "repo": "repo-2",
+        "at_seconds": 1530,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-035",
+        "repo": "repo-3",
+        "at_seconds": 1575,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-036",
+        "repo": "repo-4",
+        "at_seconds": 1620,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-037",
+        "repo": "repo-5",
+        "at_seconds": 1665,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-038",
+        "repo": "repo-6",
+        "at_seconds": 1710,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-039",
+        "repo": "repo-7",
+        "at_seconds": 1755,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-040",
+        "repo": "repo-8",
+        "at_seconds": 1800,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-041",
+        "repo": "repo-9",
+        "at_seconds": 1845,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-042",
+        "repo": "repo-10",
+        "at_seconds": 1890,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-043",
+        "repo": "repo-11",
+        "at_seconds": 1935,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-044",
+        "repo": "repo-12",
+        "at_seconds": 1980,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-045",
+        "repo": "repo-13",
+        "at_seconds": 2025,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-046",
+        "repo": "repo-14",
+        "at_seconds": 2070,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-047",
+        "repo": "repo-15",
+        "at_seconds": 2115,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-048",
+        "repo": "repo-0",
+        "at_seconds": 2160,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-049",
+        "repo": "repo-1",
+        "at_seconds": 2205,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-050",
+        "repo": "repo-2",
+        "at_seconds": 2250,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-051",
+        "repo": "repo-3",
+        "at_seconds": 2295,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-052",
+        "repo": "repo-4",
+        "at_seconds": 2340,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-053",
+        "repo": "repo-5",
+        "at_seconds": 2385,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-054",
+        "repo": "repo-6",
+        "at_seconds": 2430,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-055",
+        "repo": "repo-7",
+        "at_seconds": 2475,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-056",
+        "repo": "repo-8",
+        "at_seconds": 2520,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-057",
+        "repo": "repo-9",
+        "at_seconds": 2565,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-058",
+        "repo": "repo-10",
+        "at_seconds": 2610,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-059",
+        "repo": "repo-11",
+        "at_seconds": 2655,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-060",
+        "repo": "repo-12",
+        "at_seconds": 2700,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-061",
+        "repo": "repo-13",
+        "at_seconds": 2745,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-062",
+        "repo": "repo-14",
+        "at_seconds": 2790,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-063",
+        "repo": "repo-15",
+        "at_seconds": 2835,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-064",
+        "repo": "repo-0",
+        "at_seconds": 2880,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-065",
+        "repo": "repo-1",
+        "at_seconds": 2925,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-066",
+        "repo": "repo-2",
+        "at_seconds": 2970,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-067",
+        "repo": "repo-3",
+        "at_seconds": 3015,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-068",
+        "repo": "repo-4",
+        "at_seconds": 3060,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-069",
+        "repo": "repo-5",
+        "at_seconds": 3105,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-070",
+        "repo": "repo-6",
+        "at_seconds": 3150,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-071",
+        "repo": "repo-7",
+        "at_seconds": 3195,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-072",
+        "repo": "repo-8",
+        "at_seconds": 3240,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-073",
+        "repo": "repo-9",
+        "at_seconds": 3285,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-074",
+        "repo": "repo-10",
+        "at_seconds": 3330,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-075",
+        "repo": "repo-11",
+        "at_seconds": 3375,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-076",
+        "repo": "repo-12",
+        "at_seconds": 3420,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-077",
+        "repo": "repo-13",
+        "at_seconds": 3465,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-078",
+        "repo": "repo-14",
+        "at_seconds": 3510,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-079",
+        "repo": "repo-15",
+        "at_seconds": 3555,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-080",
+        "repo": "repo-0",
+        "at_seconds": 3600,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-081",
+        "repo": "repo-1",
+        "at_seconds": 3645,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-082",
+        "repo": "repo-2",
+        "at_seconds": 3690,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-083",
+        "repo": "repo-3",
+        "at_seconds": 3735,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-084",
+        "repo": "repo-4",
+        "at_seconds": 3780,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-085",
+        "repo": "repo-5",
+        "at_seconds": 3825,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-086",
+        "repo": "repo-6",
+        "at_seconds": 3870,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-087",
+        "repo": "repo-7",
+        "at_seconds": 3915,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-088",
+        "repo": "repo-8",
+        "at_seconds": 3960,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-089",
+        "repo": "repo-9",
+        "at_seconds": 4005,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-090",
+        "repo": "repo-10",
+        "at_seconds": 4050,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-091",
+        "repo": "repo-11",
+        "at_seconds": 4095,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-092",
+        "repo": "repo-12",
+        "at_seconds": 4140,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-093",
+        "repo": "repo-13",
+        "at_seconds": 4185,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-094",
+        "repo": "repo-14",
+        "at_seconds": 4230,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-095",
+        "repo": "repo-15",
+        "at_seconds": 4275,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      }
+    ]
+  },
+  "optimized": {
+    "scenario": "stable-prefix",
+    "assumptions": {
+      "jobs": 96,
+      "repositories": 16,
+      "interval_seconds": 45,
+      "ttl_seconds": 300,
+      "shared_prefix_tokens": 12000,
+      "dynamic_tokens": 2500,
+      "output_tokens": 450,
+      "rates_usd_per_million": {
+        "regular_input": 3.0,
+        "cache_write": 3.75,
+        "cache_read": 0.3,
+        "output": 15.0
+      },
+      "tokenizer": "synthetic token counts; no provider calls"
+    },
+    "cache_hits": 95,
+    "first_call_cache_hit_rate": 0.9895833333333334,
+    "total_usd": 1.755,
+    "average_usd_per_first_call": 0.01828125,
+    "events": [
+      {
+        "job_id": "job-000",
+        "repo": "repo-0",
+        "at_seconds": 0,
+        "cache_hit": false,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 12000,
+          "cache_read": 0,
+          "output": 450
+        },
+        "usd": 0.05925
+      },
+      {
+        "job_id": "job-001",
+        "repo": "repo-1",
+        "at_seconds": 45,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-002",
+        "repo": "repo-2",
+        "at_seconds": 90,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-003",
+        "repo": "repo-3",
+        "at_seconds": 135,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-004",
+        "repo": "repo-4",
+        "at_seconds": 180,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-005",
+        "repo": "repo-5",
+        "at_seconds": 225,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-006",
+        "repo": "repo-6",
+        "at_seconds": 270,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-007",
+        "repo": "repo-7",
+        "at_seconds": 315,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-008",
+        "repo": "repo-8",
+        "at_seconds": 360,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-009",
+        "repo": "repo-9",
+        "at_seconds": 405,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-010",
+        "repo": "repo-10",
+        "at_seconds": 450,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-011",
+        "repo": "repo-11",
+        "at_seconds": 495,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-012",
+        "repo": "repo-12",
+        "at_seconds": 540,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-013",
+        "repo": "repo-13",
+        "at_seconds": 585,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-014",
+        "repo": "repo-14",
+        "at_seconds": 630,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-015",
+        "repo": "repo-15",
+        "at_seconds": 675,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-016",
+        "repo": "repo-0",
+        "at_seconds": 720,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-017",
+        "repo": "repo-1",
+        "at_seconds": 765,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-018",
+        "repo": "repo-2",
+        "at_seconds": 810,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-019",
+        "repo": "repo-3",
+        "at_seconds": 855,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-020",
+        "repo": "repo-4",
+        "at_seconds": 900,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-021",
+        "repo": "repo-5",
+        "at_seconds": 945,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-022",
+        "repo": "repo-6",
+        "at_seconds": 990,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-023",
+        "repo": "repo-7",
+        "at_seconds": 1035,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-024",
+        "repo": "repo-8",
+        "at_seconds": 1080,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-025",
+        "repo": "repo-9",
+        "at_seconds": 1125,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-026",
+        "repo": "repo-10",
+        "at_seconds": 1170,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-027",
+        "repo": "repo-11",
+        "at_seconds": 1215,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-028",
+        "repo": "repo-12",
+        "at_seconds": 1260,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-029",
+        "repo": "repo-13",
+        "at_seconds": 1305,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-030",
+        "repo": "repo-14",
+        "at_seconds": 1350,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-031",
+        "repo": "repo-15",
+        "at_seconds": 1395,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-032",
+        "repo": "repo-0",
+        "at_seconds": 1440,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-033",
+        "repo": "repo-1",
+        "at_seconds": 1485,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-034",
+        "repo": "repo-2",
+        "at_seconds": 1530,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-035",
+        "repo": "repo-3",
+        "at_seconds": 1575,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-036",
+        "repo": "repo-4",
+        "at_seconds": 1620,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-037",
+        "repo": "repo-5",
+        "at_seconds": 1665,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-038",
+        "repo": "repo-6",
+        "at_seconds": 1710,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-039",
+        "repo": "repo-7",
+        "at_seconds": 1755,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-040",
+        "repo": "repo-8",
+        "at_seconds": 1800,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-041",
+        "repo": "repo-9",
+        "at_seconds": 1845,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-042",
+        "repo": "repo-10",
+        "at_seconds": 1890,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-043",
+        "repo": "repo-11",
+        "at_seconds": 1935,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-044",
+        "repo": "repo-12",
+        "at_seconds": 1980,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-045",
+        "repo": "repo-13",
+        "at_seconds": 2025,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-046",
+        "repo": "repo-14",
+        "at_seconds": 2070,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-047",
+        "repo": "repo-15",
+        "at_seconds": 2115,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-048",
+        "repo": "repo-0",
+        "at_seconds": 2160,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-049",
+        "repo": "repo-1",
+        "at_seconds": 2205,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-050",
+        "repo": "repo-2",
+        "at_seconds": 2250,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-051",
+        "repo": "repo-3",
+        "at_seconds": 2295,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-052",
+        "repo": "repo-4",
+        "at_seconds": 2340,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-053",
+        "repo": "repo-5",
+        "at_seconds": 2385,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-054",
+        "repo": "repo-6",
+        "at_seconds": 2430,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-055",
+        "repo": "repo-7",
+        "at_seconds": 2475,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-056",
+        "repo": "repo-8",
+        "at_seconds": 2520,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-057",
+        "repo": "repo-9",
+        "at_seconds": 2565,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-058",
+        "repo": "repo-10",
+        "at_seconds": 2610,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-059",
+        "repo": "repo-11",
+        "at_seconds": 2655,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-060",
+        "repo": "repo-12",
+        "at_seconds": 2700,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-061",
+        "repo": "repo-13",
+        "at_seconds": 2745,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-062",
+        "repo": "repo-14",
+        "at_seconds": 2790,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-063",
+        "repo": "repo-15",
+        "at_seconds": 2835,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-064",
+        "repo": "repo-0",
+        "at_seconds": 2880,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-065",
+        "repo": "repo-1",
+        "at_seconds": 2925,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-066",
+        "repo": "repo-2",
+        "at_seconds": 2970,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-067",
+        "repo": "repo-3",
+        "at_seconds": 3015,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-068",
+        "repo": "repo-4",
+        "at_seconds": 3060,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-069",
+        "repo": "repo-5",
+        "at_seconds": 3105,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-070",
+        "repo": "repo-6",
+        "at_seconds": 3150,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-071",
+        "repo": "repo-7",
+        "at_seconds": 3195,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-072",
+        "repo": "repo-8",
+        "at_seconds": 3240,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-073",
+        "repo": "repo-9",
+        "at_seconds": 3285,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-074",
+        "repo": "repo-10",
+        "at_seconds": 3330,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-075",
+        "repo": "repo-11",
+        "at_seconds": 3375,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-076",
+        "repo": "repo-12",
+        "at_seconds": 3420,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-077",
+        "repo": "repo-13",
+        "at_seconds": 3465,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-078",
+        "repo": "repo-14",
+        "at_seconds": 3510,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-079",
+        "repo": "repo-15",
+        "at_seconds": 3555,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-080",
+        "repo": "repo-0",
+        "at_seconds": 3600,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-081",
+        "repo": "repo-1",
+        "at_seconds": 3645,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-082",
+        "repo": "repo-2",
+        "at_seconds": 3690,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-083",
+        "repo": "repo-3",
+        "at_seconds": 3735,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-084",
+        "repo": "repo-4",
+        "at_seconds": 3780,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-085",
+        "repo": "repo-5",
+        "at_seconds": 3825,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-086",
+        "repo": "repo-6",
+        "at_seconds": 3870,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-087",
+        "repo": "repo-7",
+        "at_seconds": 3915,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-088",
+        "repo": "repo-8",
+        "at_seconds": 3960,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-089",
+        "repo": "repo-9",
+        "at_seconds": 4005,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-090",
+        "repo": "repo-10",
+        "at_seconds": 4050,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-091",
+        "repo": "repo-11",
+        "at_seconds": 4095,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-092",
+        "repo": "repo-12",
+        "at_seconds": 4140,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-093",
+        "repo": "repo-13",
+        "at_seconds": 4185,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-094",
+        "repo": "repo-14",
+        "at_seconds": 4230,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      },
+      {
+        "job_id": "job-095",
+        "repo": "repo-15",
+        "at_seconds": 4275,
+        "cache_hit": true,
+        "usage": {
+          "regular_input": 2500,
+          "cache_write": 0,
+          "cache_read": 12000,
+          "output": 450
+        },
+        "usd": 0.01785
+      }
+    ]
+  },
+  "modeled_cost_reduction_pct": 69.146
+}

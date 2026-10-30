@@ -1,0 +1,60 @@
+{
+  "requests": 90,
+  "jobs": 30,
+  "total_usd": 1.7694,
+  "mean_usd_per_job": 0.05898,
+  "p50_usd_per_job": 0.0576,
+  "p95_usd_per_job": 0.0576,
+  "token_totals": {
+    "regular_input": 234000,
+    "cache_write": 12000,
+    "cache_read": 1068000,
+    "output": 46800
+  },
+  "cache_read_token_share": 0.81279,
+  "groups": [
+    {
+      "model": "illustrative-large",
+      "reviewer": "quality",
+      "tier": "full",
+      "calls": 8,
+      "usd": 0.1734
+    },
+    {
+      "model": "illustrative-large",
+      "reviewer": "quality",
+      "tier": "lite",
+      "calls": 22,
+      "usd": 0.363
+    },
+    {
+      "model": "illustrative-medium",
+      "reviewer": "performance",
+      "tier": "full",
+      "calls": 8,
+      "usd": 0.1752
+    },
+    {
+      "model": "illustrative-medium",
+      "reviewer": "performance",
+      "tier": "lite",
+      "calls": 22,
+      "usd": 0.4818
+    },
+    {
+      "model": "illustrative-medium",
+      "reviewer": "security",
+      "tier": "full",
+      "calls": 8,
+      "usd": 0.1536
+    },
+    {
+      "model": "illustrative-medium",
+      "reviewer": "security",
+      "tier": "lite",
+      "calls": 22,
+      "usd": 0.4224
+    }
+  ],
+  "notice": "No wall-clock job latency estimated; requests may overlap. Prices are scenario assumptions."
+}

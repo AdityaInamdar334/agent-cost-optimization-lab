@@ -1,0 +1,44 @@
+{
+  "before": {
+    "calls": 16,
+    "usd": 0.651,
+    "per_call_usd": [
+      0.05475,
+      0.01665,
+      0.01995,
+      0.02325,
+      0.02655,
+      0.02985,
+      0.03315,
+      0.03645,
+      0.03975,
+      0.04305,
+      0.04635,
+      0.04965,
+      0.05295,
+      0.05625,
+      0.05955,
+      0.06285
+    ],
+    "scenario_only": "Stable 12k-token cache, otherwise uncached growing history"
+  },
+  "after": {
+    "calls": 10,
+    "usd": 0.3234,
+    "per_call_usd": [
+      0.05475,
+      0.01665,
+      0.01995,
+      0.02325,
+      0.02655,
+      0.02985,
+      0.03315,
+      0.03645,
+      0.03975,
+      0.04305
+    ],
+    "scenario_only": "Stable 12k-token cache, otherwise uncached growing history"
+  },
+  "modeled_cost_reduction_pct": 50.323,
+  "warning": "Synthetic pricing and token growth. Do not cite as Cloudflare measurements."
+}

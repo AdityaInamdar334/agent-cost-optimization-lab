@@ -1,0 +1,14 @@
+{
+  "paired_jobs": 96,
+  "unpaired_before_jobs": 0,
+  "unpaired_after_jobs": 0,
+  "baseline_usd_matched": 5.688,
+  "optimized_usd_matched": 1.755,
+  "total_cost_reduction_pct": 69.146,
+  "mean_cost_difference_after_minus_before_usd": -0.0409687,
+  "paired_bootstrap_95pct_cost_reduction": [
+    67.69,
+    69.873
+  ],
+  "warning": "Causal claims require controlled comparable traffic; interval is descriptive."
+}

@@ -1,0 +1,22 @@
+{
+  "tools": [
+    {
+      "name": "read",
+      "description": "read relevant files"
+    }
+  ],
+  "messages": [
+    {
+      "role": "system",
+      "content": "Stable shared instructions for code review."
+    },
+    {
+      "role": "system",
+      "content": "Working directory: repo-one; date: 2026-10-30"
+    },
+    {
+      "role": "user",
+      "content": "Review the change in repo-one."
+    }
+  ]
+}

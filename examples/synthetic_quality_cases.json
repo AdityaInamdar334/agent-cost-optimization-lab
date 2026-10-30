@@ -1,0 +1,548 @@
+{
+  "description": "Synthetic scoring fixture, not real agent outputs",
+  "cases": [
+    {
+      "case_id": "review-00",
+      "gold": [
+        {
+          "id": "0-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "0-performance",
+          "category": "performance"
+        },
+        {
+          "id": "0-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "0-performance",
+        "0-security",
+        "0-noise"
+      ],
+      "optimized": [
+        "0-correctness",
+        "0-spurious"
+      ]
+    },
+    {
+      "case_id": "review-01",
+      "gold": [
+        {
+          "id": "1-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "1-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "1-correctness",
+        "1-performance"
+      ],
+      "optimized": [
+        "1-correctness",
+        "1-performance"
+      ]
+    },
+    {
+      "case_id": "review-02",
+      "gold": [
+        {
+          "id": "2-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "2-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "2-correctness",
+        "2-performance"
+      ],
+      "optimized": [
+        "2-correctness"
+      ]
+    },
+    {
+      "case_id": "review-03",
+      "gold": [
+        {
+          "id": "3-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "3-performance",
+          "category": "performance"
+        },
+        {
+          "id": "3-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "3-correctness",
+        "3-performance",
+        "3-security"
+      ],
+      "optimized": [
+        "3-correctness",
+        "3-performance",
+        "3-security"
+      ]
+    },
+    {
+      "case_id": "review-04",
+      "gold": [
+        {
+          "id": "4-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "4-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "4-correctness",
+        "4-performance",
+        "4-noise"
+      ],
+      "optimized": [
+        "4-correctness"
+      ]
+    },
+    {
+      "case_id": "review-05",
+      "gold": [
+        {
+          "id": "5-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "5-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "5-correctness",
+        "5-performance"
+      ],
+      "optimized": [
+        "5-correctness",
+        "5-performance"
+      ]
+    },
+    {
+      "case_id": "review-06",
+      "gold": [
+        {
+          "id": "6-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "6-performance",
+          "category": "performance"
+        },
+        {
+          "id": "6-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "6-correctness",
+        "6-performance",
+        "6-security"
+      ],
+      "optimized": [
+        "6-correctness",
+        "6-security"
+      ]
+    },
+    {
+      "case_id": "review-07",
+      "gold": [
+        {
+          "id": "7-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "7-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "7-performance"
+      ],
+      "optimized": [
+        "7-correctness",
+        "7-performance"
+      ]
+    },
+    {
+      "case_id": "review-08",
+      "gold": [
+        {
+          "id": "8-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "8-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "8-correctness",
+        "8-performance",
+        "8-noise"
+      ],
+      "optimized": [
+        "8-correctness",
+        "8-spurious"
+      ]
+    },
+    {
+      "case_id": "review-09",
+      "gold": [
+        {
+          "id": "9-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "9-performance",
+          "category": "performance"
+        },
+        {
+          "id": "9-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "9-correctness",
+        "9-performance",
+        "9-security"
+      ],
+      "optimized": [
+        "9-correctness",
+        "9-performance",
+        "9-security"
+      ]
+    },
+    {
+      "case_id": "review-10",
+      "gold": [
+        {
+          "id": "10-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "10-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "10-correctness",
+        "10-performance"
+      ],
+      "optimized": [
+        "10-correctness"
+      ]
+    },
+    {
+      "case_id": "review-11",
+      "gold": [
+        {
+          "id": "11-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "11-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "11-correctness",
+        "11-performance"
+      ],
+      "optimized": [
+        "11-correctness",
+        "11-performance"
+      ]
+    },
+    {
+      "case_id": "review-12",
+      "gold": [
+        {
+          "id": "12-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "12-performance",
+          "category": "performance"
+        },
+        {
+          "id": "12-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "12-correctness",
+        "12-performance",
+        "12-security",
+        "12-noise"
+      ],
+      "optimized": [
+        "12-correctness"
+      ]
+    },
+    {
+      "case_id": "review-13",
+      "gold": [
+        {
+          "id": "13-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "13-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "13-correctness",
+        "13-performance"
+      ],
+      "optimized": [
+        "13-correctness",
+        "13-performance"
+      ]
+    },
+    {
+      "case_id": "review-14",
+      "gold": [
+        {
+          "id": "14-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "14-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "14-performance"
+      ],
+      "optimized": [
+        "14-correctness"
+      ]
+    },
+    {
+      "case_id": "review-15",
+      "gold": [
+        {
+          "id": "15-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "15-performance",
+          "category": "performance"
+        },
+        {
+          "id": "15-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "15-correctness",
+        "15-performance",
+        "15-security"
+      ],
+      "optimized": [
+        "15-correctness",
+        "15-performance",
+        "15-security"
+      ]
+    },
+    {
+      "case_id": "review-16",
+      "gold": [
+        {
+          "id": "16-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "16-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "16-correctness",
+        "16-performance",
+        "16-noise"
+      ],
+      "optimized": [
+        "16-correctness",
+        "16-spurious"
+      ]
+    },
+    {
+      "case_id": "review-17",
+      "gold": [
+        {
+          "id": "17-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "17-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "17-correctness",
+        "17-performance"
+      ],
+      "optimized": [
+        "17-correctness",
+        "17-performance"
+      ]
+    },
+    {
+      "case_id": "review-18",
+      "gold": [
+        {
+          "id": "18-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "18-performance",
+          "category": "performance"
+        },
+        {
+          "id": "18-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "18-correctness",
+        "18-performance",
+        "18-security"
+      ],
+      "optimized": [
+        "18-correctness",
+        "18-security"
+      ]
+    },
+    {
+      "case_id": "review-19",
+      "gold": [
+        {
+          "id": "19-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "19-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "19-correctness",
+        "19-performance"
+      ],
+      "optimized": [
+        "19-correctness",
+        "19-performance"
+      ]
+    },
+    {
+      "case_id": "review-20",
+      "gold": [
+        {
+          "id": "20-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "20-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "20-correctness",
+        "20-performance",
+        "20-noise"
+      ],
+      "optimized": [
+        "20-correctness"
+      ]
+    },
+    {
+      "case_id": "review-21",
+      "gold": [
+        {
+          "id": "21-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "21-performance",
+          "category": "performance"
+        },
+        {
+          "id": "21-security",
+          "category": "security"
+        }
+      ],
+      "baseline": [
+        "21-performance",
+        "21-security"
+      ],
+      "optimized": [
+        "21-correctness",
+        "21-performance",
+        "21-security"
+      ]
+    },
+    {
+      "case_id": "review-22",
+      "gold": [
+        {
+          "id": "22-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "22-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "22-correctness",
+        "22-performance"
+      ],
+      "optimized": [
+        "22-correctness"
+      ]
+    },
+    {
+      "case_id": "review-23",
+      "gold": [
+        {
+          "id": "23-correctness",
+          "category": "correctness"
+        },
+        {
+          "id": "23-performance",
+          "category": "performance"
+        }
+      ],
+      "baseline": [
+        "23-correctness",
+        "23-performance"
+      ],
+      "optimized": [
+        "23-correctness",
+        "23-performance"
+      ]
+    }
+  ]
+}
